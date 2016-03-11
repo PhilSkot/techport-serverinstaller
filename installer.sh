@@ -23,3 +23,9 @@ echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | te
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886
 apt-get update
 apt-get -y install oracle-java8-installer
+
+#Let's Encrypt
+git clone https://github.com/letsencrypt/letsencrypt
+cd letsencrypt
+chmod +x letsencrypt
+./letsencrypt --apache
