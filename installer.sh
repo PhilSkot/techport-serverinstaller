@@ -11,7 +11,7 @@ apt-get update
 apt-get dist-upgrade 
 
 #Installieren der Pakete
-apt-get -y install mysql-server mysql-client php5-mysql phpmyadmin zip unzip figlet nano fail2ban mc perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python
+apt-get -y install git mysql-server mysql-client php5-mysql phpmyadmin zip unzip figlet nano fail2ban mc perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python
 
 #Installieren von Webmin
 wget http://www.webmin.com/download/deb/webmin-current.deb
