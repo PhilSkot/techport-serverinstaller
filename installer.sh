@@ -2,7 +2,7 @@
 #Dieses Script installiert die Essential Pakete & Konfiguiert den Server 
 
 #Umstellung auf Deutsch
-dkpg-reconfigure tzdata
+dpkg-reconfigure tzdata
 dpkg-reconfigure locales
 
 
